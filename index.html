@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,12 +63,35 @@
         .glass-card a:hover {
             text-decoration: underline;
         }
+
+        .download-btn {
+            background-color: #880000;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .download-btn:hover {
+            background-color: white;
+            color: #880000;
+            transform: scale(1.05);
+        }
+
+        .download-btn:active {
+            transform: scale(0.95);
+        }
     </style>
 </head>
 <body>
 
     <video id="bg-video" autoplay loop muted>
-        <source src="https://cn-gddg-ct-01-12.bilivideo.com/upgcxcode/39/55/43383655539/43383655539-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&trid=00000afc12588a7142eebfacff7644aa3dfh&mid=0&oi=1782024106&nbs=1&platform=html5&og=hw&deadline=1794114713&uipk=5&gen=playurlv3&os=bcache&upsig=bdef9e3f50412e12cc38d3db81e5d054&uparams=e,trid,mid,oi,nbs,platform,og,deadline,uipk,gen,os&cdnid=61312&bvc=vod&nettype=0&bw=385381&lrs=0&V=v3.0.9&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1" type="video/mp4">
+        <source src="luoxiaohei.mp4" type="video/mp4">
     </video>
 
     <div class="glass-card">
@@ -75,7 +99,13 @@
        
         <h3><a href="http://s.team">去Steam支持AU正版！</a></h3>
         
-        <h2>此处省略一堆玩意</h2>
+        <h2>资源下载</h2>
+        
+        <a href="https://github.com/ZhengXiaoYu2333/Cookie-ship/releases/download/3.6.1/Nebula.7z" target="_blank" style="text-decoration: none;">
+            <button class="download-btn">下载 Nebula 模组 (945MB)</button>
+        </a>
+        
+        <p style="font-size: 14px; color: #555; margin-top: 20px;">*提示：点击即可直接下载，文件较大，请确保网络稳定。</p>
         
         <h4 style="color: #444; margin-top: 40px;">侵权必删，仅供学习与交流。</h4>
     </div>
